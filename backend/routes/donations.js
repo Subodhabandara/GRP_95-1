@@ -1,4 +1,6 @@
 const router = require("express").Router();
+const multer = require("multer");
+const upload = multer({dest: "upload/"});//set the destination folder for file uploads
 let Donation = require("../models/Donation");
 
 //add donation

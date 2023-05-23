@@ -3,6 +3,8 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const dotenv = require("dotenv");
+const multer = require('multer')
+const upload = multer({ dest: 'uploads/'})
 const app = express();
 require("dotenv").config();
 

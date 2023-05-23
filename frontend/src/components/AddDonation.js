@@ -8,7 +8,7 @@ export default function AddDonation(){
     const [description, setDescription] = useState("");
 
     function sendData(e){
-        
+
         e.preventDefault();
         
         const newDonation ={
